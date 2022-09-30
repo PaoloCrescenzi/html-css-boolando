@@ -77,9 +77,22 @@ nav{
 }
 
 .card img{
-    width: 100%;
-    
+    width: 100%; 
 }
+
+.card .img-b{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.card:hover .img-b{
+    display: inline;
+}
+
+
 
 .discount-container{
     padding: .2rem .5rem;
